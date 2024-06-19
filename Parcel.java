@@ -9,7 +9,7 @@ public class Parcel {
     public Parcel(String id, String description) {
         this.id = id;
         this.description = description;
-        this.status = "Pending"; // Default status
+        this.status = "Pending";
     }
 
     public String getId() {
